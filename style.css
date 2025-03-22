@@ -1,0 +1,40 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Banner styles */
+  .banner {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Dark mode toggle icon styling */
+  #icon {
+    display: block;
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  /* Light mode colors (default) */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Dark mode styles */
+  .dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Adjust banner in dark mode */
+  .dark-theme .banner {
+    background-color: #333;
+  }
+  
